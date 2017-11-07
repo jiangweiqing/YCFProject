@@ -62,7 +62,6 @@
         [self downloadImageWithURL:@"http://i31.tinypic.com/2w7e0wy.jpg" andBlock:^(UIImage *returnImage){
             image2 = returnImage;
             NSLog(@"image2__thread-%@执行完成了...",[NSThread currentThread]);
-            
         } enterGroup:group];
     });
     __block UIImage *image3 = nil;
