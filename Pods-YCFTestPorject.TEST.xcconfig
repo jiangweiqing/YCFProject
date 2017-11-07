@@ -1,0 +1,12 @@
+//
+//  Pods-YCFTestPorject.TEST.xcconfig
+//  YCFTestPorject
+//
+//  Created by jiang on 2017/11/1.
+//  Copyright © 2017年 YCF. All rights reserved.
+//
+#include "Pods-YCFTestPorject.release.xcconfig"
+
+BUNDLE_NAME = TEST
+BUNDLE_ID   = com.test.cn
+DEBUG = 0
