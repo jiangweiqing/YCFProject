@@ -11,6 +11,7 @@
 		EE01F0D71FA81BF6006ACF0E /* NSArray+SaveArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EE01F0D61FA81BF6006ACF0E /* NSArray+SaveArray.m */; };
 		EE01F0DA1FA84D15006ACF0E /* UILabel+Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE01F0D91FA84D15006ACF0E /* UILabel+Creator.m */; };
 		EE01F0DD1FA851E9006ACF0E /* UITableView+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE01F0DC1FA851E9006ACF0E /* UITableView+Factory.m */; };
+		EE29C9F81FB589B500E10A74 /* ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE29C9F71FB589B500E10A74 /* ScaleImage.m */; };
 		EE4DCEB81FA1B332004C3D2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DCEB71FA1B332004C3D2E /* main.m */; };
 		EE4DCEBB1FA1B332004C3D2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DCEBA1FA1B332004C3D2E /* AppDelegate.m */; };
 		EE4DCEBE1FA1B332004C3D2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DCEBD1FA1B332004C3D2E /* ViewController.m */; };
@@ -58,6 +59,8 @@
 		EE01F0DC1FA851E9006ACF0E /* UITableView+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Factory.m"; sourceTree = "<group>"; };
 		EE01F0DE1FA85BD7006ACF0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EE01F0DF1FA85C73006ACF0E /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		EE29C9F61FB589B500E10A74 /* ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleImage.h; sourceTree = "<group>"; };
+		EE29C9F71FB589B500E10A74 /* ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleImage.m; sourceTree = "<group>"; };
 		EE481F611FAB1FDF004D060D /* Inline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
 		EE4DCEB31FA1B332004C3D2E /* YCFTestPorject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCFTestPorject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4DCEB71FA1B332004C3D2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 				EE54557B1FA70AA100BFC981 /* UIControl+Click.m */,
 				EE01F0DB1FA851E9006ACF0E /* UITableView+Factory.h */,
 				EE01F0DC1FA851E9006ACF0E /* UITableView+Factory.m */,
+				EE29C9F61FB589B500E10A74 /* ScaleImage.h */,
+				EE29C9F71FB589B500E10A74 /* ScaleImage.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 			files = (
 				EE01F0DA1FA84D15006ACF0E /* UILabel+Creator.m in Sources */,
 				EE5E86851FB0139500899F88 /* BaseListViewController.m in Sources */,
+				EE29C9F81FB589B500E10A74 /* ScaleImage.m in Sources */,
 				EE78C21E1FA32AE2007F2D99 /* PopViewController.m in Sources */,
 				EE4DCEBE1FA1B332004C3D2E /* ViewController.m in Sources */,
 				EE4DCEBB1FA1B332004C3D2E /* AppDelegate.m in Sources */,
